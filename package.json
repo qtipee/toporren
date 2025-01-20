@@ -20,6 +20,9 @@
         "url": "https://github.com/qtipee/toporren/issues"
     },
     "homepage": "https://github.com/qtipee/toporren#readme",
+    "engines": {
+        "node": ">=22.12.0"
+    },
     "devDependencies": {
         "vite": "^6.0.8"
     }
