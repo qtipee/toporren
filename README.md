@@ -4,19 +4,20 @@ Journal de Carnaval de Porrentruy
 
 ## Local development
 
-You need to serve this website from a local server.
+```
+# Install dependencies
+npm install
 
-### Local development using Node
+# Run local server
+npm run dev
+```
+
+## Build application
 
 ```
-npm install -g http-server
-http-server # From the project folder
+# Build the application
+npm run build
+
+# Test the built application
+npm run preview
 ```
-
-The website is now accessible via **localhost:8080**.
-
-### Local development using Python
-
-Use the following command to start a simple HTTP server:
-
-`python3 -m http.server`

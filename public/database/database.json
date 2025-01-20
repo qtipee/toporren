@@ -1,110 +1,110 @@
 {
     "archives": [
         {
-            "imagePath": "images/archives/2024.png",
-            "filePath": "files/archives/toPorren2024.pdf",
+            "imagePath": "/images/archives/2024.png",
+            "filePath": "/files/archives/toPorren2024.pdf",
             "title": "2024",
             "size": "27.44 Mo"
         },
         {
-            "imagePath": "images/archives/2023.png",
-            "filePath": "files/archives/toPorren2023.pdf",
+            "imagePath": "/images/archives/2023.png",
+            "filePath": "/files/archives/toPorren2023.pdf",
             "title": "2023",
             "size": "17.06 Mo"
         },
         {
-            "imagePath": "images/archives/2022.png",
-            "filePath": "files/archives/toPorren2022.pdf",
+            "imagePath": "/images/archives/2022.png",
+            "filePath": "/files/archives/toPorren2022.pdf",
             "title": "2022",
             "size": "13.36 Mo"
         },
         {
-            "imagePath": "images/archives/2021.png",
-            "filePath": "files/archives/2021.pdf",
+            "imagePath": "/images/archives/2021.png",
+            "filePath": "/files/archives/2021.pdf",
             "title": "2021",
             "size": "12.51 Mo"
         },
         {
-            "imagePath": "images/archives/2020.png",
-            "filePath": "files/archives/toPorren2020.pdf",
+            "imagePath": "/images/archives/2020.png",
+            "filePath": "/files/archives/toPorren2020.pdf",
             "title": "2020",
             "size": "11.09 Mo"
         },
         {
-            "imagePath": "images/archives/2019.png",
-            "filePath": "files/archives/toPorren2019.pdf",
+            "imagePath": "/images/archives/2019.png",
+            "filePath": "/files/archives/toPorren2019.pdf",
             "title": "2019",
             "size": "27.45 Mo"
         },
         {
-            "imagePath": "images/archives/2018.png",
-            "filePath": "files/archives/toPorren2018.pdf",
+            "imagePath": "/images/archives/2018.png",
+            "filePath": "/files/archives/toPorren2018.pdf",
             "title": "2018",
             "size": "11.87 Mo"
         },
         {
-            "imagePath": "images/archives/topwoche.png",
-            "filePath": "files/archives/topwoche.pdf",
+            "imagePath": "/images/archives/topwoche.png",
+            "filePath": "/files/archives/topwoche.pdf",
             "title": "To'PWoche",
             "size": "2.24 Mo"
         },
         {
-            "imagePath": "images/archives/2017.png",
-            "filePath": "files/archives/toPorren2017.pdf",
+            "imagePath": "/images/archives/2017.png",
+            "filePath": "/files/archives/toPorren2017.pdf",
             "title": "2017",
             "size": "22.83 Mo"
         },
         {
-            "imagePath": "images/archives/2016.png",
-            "filePath": "files/archives/toPorren2016.pdf",
+            "imagePath": "/images/archives/2016.png",
+            "filePath": "/files/archives/toPorren2016.pdf",
             "title": "2016",
             "size": "6.08 Mo"
         },
         {
-            "imagePath": "images/archives/2015.png",
-            "filePath": "files/archives/toPorren2015.pdf",
+            "imagePath": "/images/archives/2015.png",
+            "filePath": "/files/archives/toPorren2015.pdf",
             "title": "2015",
             "size": "6.16 Mo"
         },
         {
-            "imagePath": "images/archives/2014.png",
-            "filePath": "files/archives/toPorren2014.pdf",
+            "imagePath": "/images/archives/2014.png",
+            "filePath": "/files/archives/toPorren2014.pdf",
             "title": "2014",
             "size": "8.94 Mo"
         },
         {
-            "imagePath": "images/archives/2013.png",
-            "filePath": "files/archives/toPorren2013.pdf",
+            "imagePath": "/images/archives/2013.png",
+            "filePath": "/files/archives/toPorren2013.pdf",
             "title": "2013",
             "size": "3.94 Mo"
         },
         {
-            "imagePath": "images/archives/2012.png",
-            "filePath": "files/archives/toPorren2012.pdf",
+            "imagePath": "/images/archives/2012.png",
+            "filePath": "/files/archives/toPorren2012.pdf",
             "title": "2012",
             "size": "7.77 Mo"
         },
         {
-            "imagePath": "images/archives/2011.png",
-            "filePath": "files/archives/toPorren2011.pdf",
+            "imagePath": "/images/archives/2011.png",
+            "filePath": "/files/archives/toPorren2011.pdf",
             "title": "2011",
             "size": "6.48 Mo"
         },
         {
-            "imagePath": "images/archives/2010.png",
-            "filePath": "files/archives/toPorren2010.pdf",
+            "imagePath": "/images/archives/2010.png",
+            "filePath": "/files/archives/toPorren2010.pdf",
             "title": "2010",
             "size": "6.43 Mo"
         },
         {
-            "imagePath": "images/archives/2009.png",
-            "filePath": "files/archives/toPorren2009.pdf",
+            "imagePath": "/images/archives/2009.png",
+            "filePath": "/files/archives/toPorren2009.pdf",
             "title": "2009",
             "size": "13.38 Mo"
         },
         {
-            "imagePath": "images/archives/2008.png",
-            "filePath": "files/archives/toPorren2008.pdf",
+            "imagePath": "/images/archives/2008.png",
+            "filePath": "/files/archives/toPorren2008.pdf",
             "title": "2008",
             "size": "19.91 Mo"
         }
@@ -114,79 +114,79 @@
             "title": "L'édition du To'Porren 2025 arrive !",
             "description": "En vente dès le 28 février !",
             "date": "20.01.2025",
-            "imagePath": "images/news/pub-ajoie2025-1.png"
+            "imagePath": "/images/news/pub-ajoie2025-1.png"
         },
         {
             "title": "To'Porren 2024",
             "description": "En vente dès le 9 février !",
             "date": "17.01.2024",
-            "imagePath": "images/news/toporren2024.jpg"
+            "imagePath": "/images/news/toporren2024.jpg"
         },
         {
             "title": "L'édition 2023 arrive !",
             "description": "En vente dès le 17 février !",
             "date": "16.01.2023",
-            "imagePath": "images/news/pub-ajoie2023.jpg"
+            "imagePath": "/images/news/pub-ajoie2023.jpg"
         },
         {
             "title": "To'Porren 2022 : 15ème édition",
             "description": "En vente dès le 25 février !",
             "date": "20.01.2022",
-            "imagePath": "images/news/pub-ajoie.jpg"
+            "imagePath": "/images/news/pub-ajoie.jpg"
         },
         {
             "title": "To'Porren 2021 - #14",
             "description": "En vente dès le 12 février !",
             "date": "26.12.2020",
-            "imagePath": "images/coucouille.png"
+            "imagePath": "/images/coucouille.png"
         },
         {
             "title": "To'Porren 2020",
             "description": "Prêt pour le prochain To'Porren ? Parce qu'il arrive le 21 février 2020 !",
             "date": "01.01.2020",
-            "imagePath": "images/news/pub-ajoieFINAL.jpg"
+            "imagePath": "/images/news/pub-ajoieFINAL.jpg"
         },
         {
             "title": "To'Porren #12",
             "description": "Rendez-vous vendredi 1er mars pour la 12ème édition du To'Porren !",
             "date": "27.02.2019",
-            "imagePath": "images/coucouille.png"
+            "imagePath": "/images/coucouille.png"
         },
         {
             "title": "Le To'Porren 2018 est disponible !",
             "description": "L'édition 2018 du To'Porren est maintenant disponible en version PDF.",
             "date": "07.10.2018",
-            "imagePath": "images/news/edition2018.png"
+            "imagePath": "/images/news/edition2018.png"
         },
         {
             "title": "To'Porren #11",
             "description": "La onzième édition du To'Porren pourra être achetée à partir du 9 février 2018 !",
             "date": "14.01.2018",
-            "imagePath": "images/coucouille.png"
+            "imagePath": "/images/coucouille.png"
         },
         {
             "title": "Le To'Porren a besoin de vous !",
             "description": "Envoyez-nous vos histoires, anecdotes et ragots via le formulaire de contact. Dépêchez-vous, c'est maintenant ou jamais !",
             "date": "15.10.2017)",
-            "imagePath": "images/news/wanted.png"
+            "imagePath": "/images/news/wanted.png"
         },
         {
             "title": "L'édition de 2017 est maintenant en ligne !",
             "description": "Le To'Porren n°10 est désormais disponible en version pdf dans les archives. Bonne (re)lecture !",
             "date": "27.05.2017",
-            "imagePath": "images/news/edition2017.png"
+            "imagePath": "/images/news/edition2017.png"
         },
         {
             "title": "Les 10 dix éditions en un seul ouvrage !",
             "description": "Intéressé à acquérir les 10 éditions du To'Porren en un seul ouvrage ? Contactez-nous pour obtenir d'avantage d'information.",
             "date": "24.02.2017",
-            "imagePath": "images/news/dix-ans.jpg"
+            "imagePath": "/images/news/dix-ans.jpg"
         },
         {
             "title": "Vente de la dixième édition",
             "description": "Vente de l'édition n°10 du To'Porren dès le vendredi 24 février 2017 !",
             "date": "24.02.2017",
-            "imagePath": "images/news/edition10.png"
+            "imagePath": "/images/news/edition10.png"
         }
     ],
     "sellingPoints": [

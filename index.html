@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" prefix="og: http://ogp.me/ns#">
-
 <!-- To'Porren - Since 2017 -->
-
 <head>
     <meta charset="utf-8"/>
     <title>ToPorren</title>
@@ -12,32 +10,25 @@
     <meta property="og:image" content="https://www.toporren.ch/images/coucouille.png"/>
     <meta property="og:url" content="https://www.toporren.ch/"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="shortcut icon" type="image/x-icon" href="images/coucouille.ico"/>
-    
+    <link rel="shortcut icon" type="image/x-icon" href="/images/coucouille.ico"/>
     <!-- STYLES -->
-    
-    <link rel="stylesheet" href="styles/qtipee.responsive.css">
-    <link rel="stylesheet" href="styles/custom.css">
+    <link rel="stylesheet" href="./styles/qtipee.responsive.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato">
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="qtipee">
-        
+    <div class="qtipee"> 
         <!-- HEADER -->
-        
         <header>
             <div id="navbarWrapper">
                 <div class="container">
-                    
                     <!-- DESKTOP NAVIGATION -->
-                    
                     <div class="desktopNav hidden-tablet">
                         <div class="qrow">
                             <div class="qcol four">
-                                <a class="mainLogo" href="index.php">
-                                    <img src="images/main_logo.png" alt="Logo To'Porren">
+                                <a class="mainLogo" href="index.html">
+                                    <img src="/images/main_logo.png" alt="Logo To'Porren">
                                 </a>
                             </div>
                             <nav>
@@ -78,9 +69,7 @@
                             </nav>
                         </div>
                     </div>
-                    
                     <!-- PHONE NAVIGATION -->
-                    
                     <div class="phoneNav hidden-desktop visible-tablet">
                         <div class="qrow">
                             <div class="qcol two">
@@ -92,8 +81,8 @@
                                 </div>
                             </div>
                             <div class="qcol ten">
-                                <a class="mainLogo" href="index.php">
-                                    <img src="images/main_logo.png" alt="Logo To'Porren">
+                                <a class="mainLogo" href="index.html">
+                                    <img src="/images/main_logo.png" alt="Logo To'Porren">
                                 </a>
                             </div>
                             <nav id="phoneNavLinks" class="collapsed">
@@ -137,24 +126,19 @@
                 </div>
             </div>
         </header>
-        
         <!-- CONTENT -->
-        
         <div class="content">
-            
             <!-- HOME -->
-            
             <section class="homeSection homeWrapper">
                 <div class="container">
                     <div class="qrow">
                         <div class="qcol twelve">
-                            <img class="logo" src="images/main_logo.png" alt="Logo To'Porren">
+                            <img class="logo" src="/images/main_logo.png" alt="Logo To'Porren">
                             <h1>Journal de Carnaval</h1>
                         </div>
                     </div>
                 </div>
             </section>
-            
             <!-- NEWS -->
             <section id="newsWrapper" class="section">
                 <div class="container">
@@ -167,9 +151,7 @@
                     </div>
                 </div>
             </section>
-            
             <!-- ARCHIVES -->
-            
             <section id="archivesWrapper" class="section accentColorWrapper">
                 <div class="container">
                     <h2>Anciennes éditions</h2>
@@ -182,9 +164,7 @@
                     </div>
                 </div>
             </section>
-            
             <!-- CONTACT -->
-            
             <section class="section contactWrapper" id="contact">
                 <div class="container">
                     <h2>Rencardez-nous</h2>
@@ -218,9 +198,7 @@
                     </div>
                 </div>
             </section>
-            
             <!-- PUBS & DONS -->
-            
             <section class="section adsWrapper secondaryColorWrapper" id="ads">
                 <div class="container">
                     <h2>Pubs &amp; Dons</h2>
@@ -277,9 +255,7 @@
                     </div>
                 </div>
             </section>
-            
             <!-- POINTS DE VENTE -->
-            
             <section class="section saleWrapper secondaryColorWrapper" id="sale">
                 <div class="container">
                     <h2>Points de vente</h2>
@@ -288,11 +264,8 @@
                     </div>
                 </div>
             </section>
-            
         </div>
-        
         <!-- FOOTER -->
-        
         <footer>
             <div class="container">
                 <div class="footerLinks">
@@ -338,13 +311,10 @@
                     </div>
                 </div>
             </div>
-        </footer>
-        
+        </footer>  
     </div>
     
     <!-- SCRIPTS -->
-    
-    <script src="scripts/app.js"></script>
-    
+    <script type="module" src="./src/main.js"></script>
 </body>
 </html>
