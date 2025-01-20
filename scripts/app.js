@@ -104,17 +104,21 @@ function initDropdowns(lazy = false) {
     dropdowns.forEach((dropdown) => {
         let targetSelector = dropdown.getAttribute('target');
         let target = document.querySelector(targetSelector);
-        let rect = target.getBoundingClientRect();
 
         if (target) {
+            const rect = target.getBoundingClientRect();
             target.setAttribute('dropdown-height', rect.height + 'px');
             target.classList.add('collapsed');
             target.style.height = '0px';
+            target.style.transition = 'height 0.3s ease, overflow 0.3s ease'; // Add smooth animation
         }
     });
 
     // Add the event listeners to the dropdowns once they are initialised
     setDropdownsEvent(lazy);
+
+    // Add a resize event listener to recalculate dropdown heights
+    window.addEventListener('resize', debounce(recalculateDropdownHeights, 1000));
 }
 
 /**
@@ -132,18 +136,51 @@ function setDropdownsEvent(lazy = false) {
             let target = document.querySelector(targetSelector);
 
             if (target) {
-                let nextHeight = '0px';
                 if (target.classList.contains('collapsed')) {
-                    nextHeight = target.getAttribute('dropdown-height');
-                    target.style.overflow = 'visible'; // Allow content to be visible when expanded
+                    const dropdownHeight = target.getAttribute('dropdown-height');
+                    target.style.height = dropdownHeight;
+                    target.style.overflow = 'visible'; // Allow content to be visible
                 } else {
+                    target.style.height = '0px';
                     target.style.overflow = 'hidden'; // Hide overflow when collapsed
                 }
 
-                target.style.height = nextHeight;
                 target.classList.toggle('collapsed')
             }
         });
+    });
+}
+
+/**
+ * Recalculate the heights of all dropdowns when the page is resized.
+ */
+function recalculateDropdownHeights() {
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    dropdowns.forEach((dropdown) => {
+        const targetSelector = dropdown.getAttribute('target');
+        const target = document.querySelector(targetSelector);
+
+        if (target) {
+            // Temporarily expand the dropdown if it is collapsed
+            const wasCollapsed = target.classList.contains('collapsed');
+            if (wasCollapsed) {
+                target.style.height = 'auto';
+                target.style.overflow = 'visible';
+                target.classList.remove('collapsed');
+            }
+
+            // Recalculate the height
+            const rect = target.getBoundingClientRect();
+            target.setAttribute('dropdown-height', rect.height + 'px');
+
+            // Restore the collapsed state if it was originally collapsed
+            if (wasCollapsed) {
+                target.style.height = '0px';
+                target.style.overflow = 'hidden';
+                target.classList.add('collapsed');
+            }
+        }
     });
 }
 
@@ -223,10 +260,11 @@ function populateArchives() {
         const archiveElement = document.createElement('div');
         archiveElement.classList.add('archiveFile');
         archiveElement.innerHTML = `
-        <div class="qcol two smallDesk-three tablet-four phone-six smallPhone-twelve">
+        <div class="qcol three smallDesk-three tablet-four phone-six smallPhone-twelve">
             <a href="${archive.filePath}" target="_blank">
                 <img src="${archive.imagePath}" alt="To'Porren ${archive.title}">
                 <div>${archive.title}</div>
+                <span class="fileSize">(${archive.size})</span>
             </a>
         </div>
         `;
@@ -244,7 +282,7 @@ function populateSellingPoints() {
     sellingPoints.forEach((sellingPoint) => {
         const sellingPointName = sellingPoint.name.toLowerCase().replace(/\s+/g, '-');
         const sellingPointElement = document.createElement('div');
-        sellingPointElement.classList.add('qcol', 'four', 'tablet-twelve');
+        sellingPointElement.classList.add('qcol', 'twelve');
         sellingPointElement.innerHTML = `
         <div class="dropdown lazy" target="#${sellingPointName}">
             <div class="town" role="button">

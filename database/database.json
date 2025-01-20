@@ -3,92 +3,110 @@
         {
             "imagePath": "images/archives/2024.png",
             "filePath": "files/archives/toPorren2024.pdf",
-            "title": "2024"
+            "title": "2024",
+            "size": "27.44 Mo"
         },
         {
             "imagePath": "images/archives/2023.png",
             "filePath": "files/archives/toPorren2023.pdf",
-            "title": "2023"
+            "title": "2023",
+            "size": "17.06 Mo"
         },
         {
             "imagePath": "images/archives/2022.png",
             "filePath": "files/archives/toPorren2022.pdf",
-            "title": "2022"
+            "title": "2022",
+            "size": "13.36 Mo"
         },
         {
             "imagePath": "images/archives/2021.png",
             "filePath": "files/archives/2021.pdf",
-            "title": "2021"
+            "title": "2021",
+            "size": "12.51 Mo"
         },
         {
             "imagePath": "images/archives/2020.png",
             "filePath": "files/archives/toPorren2020.pdf",
-            "title": "2020"
+            "title": "2020",
+            "size": "11.09 Mo"
         },
         {
             "imagePath": "images/archives/2019.png",
             "filePath": "files/archives/toPorren2019.pdf",
-            "title": "2019"
+            "title": "2019",
+            "size": "27.45 Mo"
         },
         {
             "imagePath": "images/archives/2018.png",
             "filePath": "files/archives/toPorren2018.pdf",
-            "title": "2018"
+            "title": "2018",
+            "size": "11.87 Mo"
         },
         {
             "imagePath": "images/archives/topwoche.png",
             "filePath": "files/archives/topwoche.pdf",
-            "title": "To'PWoche"
+            "title": "To'PWoche",
+            "size": "2.24 Mo"
         },
         {
             "imagePath": "images/archives/2017.png",
             "filePath": "files/archives/toPorren2017.pdf",
-            "title": "2017"
+            "title": "2017",
+            "size": "22.83 Mo"
         },
         {
             "imagePath": "images/archives/2016.png",
             "filePath": "files/archives/toPorren2016.pdf",
-            "title": "2016"
+            "title": "2016",
+            "size": "6.08 Mo"
         },
         {
             "imagePath": "images/archives/2015.png",
             "filePath": "files/archives/toPorren2015.pdf",
-            "title": "2015"
+            "title": "2015",
+            "size": "6.16 Mo"
         },
         {
             "imagePath": "images/archives/2014.png",
             "filePath": "files/archives/toPorren2014.pdf",
-            "title": "2014"
+            "title": "2014",
+            "size": "8.94 Mo"
         },
         {
             "imagePath": "images/archives/2013.png",
             "filePath": "files/archives/toPorren2013.pdf",
-            "title": "2013"
+            "title": "2013",
+            "size": "3.94 Mo"
         },
         {
             "imagePath": "images/archives/2012.png",
             "filePath": "files/archives/toPorren2012.pdf",
-            "title": "2012"
+            "title": "2012",
+            "size": "7.77 Mo"
         },
         {
             "imagePath": "images/archives/2011.png",
             "filePath": "files/archives/toPorren2011.pdf",
-            "title": "2011"
+            "title": "2011",
+            "size": "6.48 Mo"
         },
         {
             "imagePath": "images/archives/2010.png",
             "filePath": "files/archives/toPorren2010.pdf",
-            "title": "2010"
+            "title": "2010",
+            "size": "6.43 Mo"
         },
         {
             "imagePath": "images/archives/2009.png",
             "filePath": "files/archives/toPorren2009.pdf",
-            "title": "2009"
+            "title": "2009",
+            "size": "13.38 Mo"
         },
         {
             "imagePath": "images/archives/2008.png",
             "filePath": "files/archives/toPorren2008.pdf",
-            "title": "2008"
+            "title": "2008",
+            "size": "19.91 Mo"
         }
     ],
     "news": [
