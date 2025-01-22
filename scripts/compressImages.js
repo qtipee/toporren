@@ -2,7 +2,20 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const compressImages = async (dir, resize = false) => {
+// List of directories to apply compression on their images
+const DIRECTORIES = [
+    './public/images',
+    './public/images/archives',
+    './public/images/brochure',
+    './public/images/news',
+    './public/images/support',
+];
+
+/**
+ * Compress the images in the directory.
+ * @param {string} dir 
+ */
+const compressImages = async (dir) => {
     const files = fs.readdirSync(dir);
 
     for (const file of files) {
@@ -69,6 +82,17 @@ const compressImages = async (dir, resize = false) => {
     }
 };
 
-compressImages('./public/images/test', false)
-    .then(() => console.log('Images were compressed!'))
-    .catch((error) => console.error(error));
+/**
+ * Script main entry.
+ * Compress the images in each of the directory
+ * from the DIRECTORIES list.
+ */
+function main() {
+    for (const dir of DIRECTORIES) {
+        compressImages(dir)
+            .then(() => console.log(`Compressed images in: ${dir}`))
+            .catch((err) => console.error(err));
+    }
+}
+
+main();
