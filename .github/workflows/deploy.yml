@@ -27,6 +27,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      # Resize and compress images
+      - name: Resize and compress images
+        run: npm run compress-images
+
       # Build the app
       - name: Build the app
         run: npm run build
