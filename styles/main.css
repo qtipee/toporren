@@ -38,7 +38,7 @@ header{position:fixed;top:0;left:0;right:0;width:100%;z-index:999;}
 #navbarWrapper .mainLogo img{width:200px;margin:17px 0 0 0;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;transition:all 0.5s;}
 #navbarWrapper .navbar{float:right;margin:0;}
 #navbarWrapper .navbar li{display:inline;}
-#navbarWrapper .navbar li a{display:inline;float:left;padding:10px 25px 8px 25px; font-size:1.25em;font-family:'Indie Flower';font-weight:bold;color:#504b46;text-align:center;-webkit-transition:font-size 0.5s;-moz-transition:font-size 0.5s;transition:font-size 0.5s;}
+#navbarWrapper .navbar li a{display:inline;float:left;padding:10px 25px 8px 25px; font-size:1.25em;font-family:'Indie Flower';font-weight:bold;color:#504b46;text-align:center;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;transition:all 0.5s;}
 #navbarWrapper .navbar li a:hover{color:#e30510;background:#f0f0f0;}
 #navbarWrapper .navbar li .fa{display:block;margin-bottom:8px;font-size:1.2em;}
 #navbarWrapper #phoneNavLinks ul{margin:20px 0 0 0;}

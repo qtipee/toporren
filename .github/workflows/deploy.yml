@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger action on push to main branch
+      - main
 
 permissions:
   contents: write
@@ -26,6 +26,10 @@ jobs:
           node-version: '22.x'
       - name: Install dependencies
         run: npm install
+
+      # Resize and compress images
+      - name: Resize and compress images
+        run: npm run compress-images
 
       # Build the app
       - name: Build the app
