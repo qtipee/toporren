@@ -19,12 +19,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Set up Node.js and install dependencies
+      # Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
 
+      # Install dependencies
       - name: Install dependencies
         run: npm install
 
