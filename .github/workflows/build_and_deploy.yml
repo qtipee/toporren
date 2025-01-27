@@ -39,8 +39,25 @@ jobs:
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages  # Deploy to gh-pages branch
-          folder: dist  # Vite's build output folder
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create a temporary directory for the build output
+          mkdir gh-pages
+          # Copy the build output to the temporary directory
+          cp -r dist/* gh-pages/
+
+          # Configure Git user credentials
+          git config --global user.name "Github Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Change to the gh-pages directory
+          cd gh-pages
+
+          # Initialise git, create a new branch and set the remote
+          git init
+          git checkout -b gh-pages
+          git remote add origin https://github.com/${{ github.repository }}.git
+
+          # Add all files, commit and push to the gh-pages branch
+          git add .
+          git commit -m "Deploy to Github Pages"
+          git push --force origin gh-pages
