@@ -55,7 +55,7 @@ jobs:
           # Initialise git, create a new branch and set the remote
           git init
           git checkout -b gh-pages
-          git remote add origin https://github.com/${{ github.repository }}.git
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
           # Add all files, commit and push to the gh-pages branch
           git add .
