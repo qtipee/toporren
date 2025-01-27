@@ -45,6 +45,9 @@ jobs:
           # Copy the build output to the temporary directory
           cp -r dist/* gh-pages/
 
+          # Ensure CNAME file is included in the deploy
+          cp CNAME gh-pages/
+
           # Configure Git user credentials
           git config --global user.name "Github Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
