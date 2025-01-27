@@ -26,6 +26,6 @@
     },
     "devDependencies": {
         "sharp": "^0.33.5",
-        "vite": "^6.0.8"
+        "vite": "^6.0.11"
     }
 }
