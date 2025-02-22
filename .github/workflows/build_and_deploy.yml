@@ -1,0 +1,66 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Resize and compress images
+      - name: Resize and compress images
+        run: npm run compress-images
+
+      # Build the app
+      - name: Build the app
+        run: npm run build
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        run: |
+          # Create a temporary directory for the build output
+          mkdir gh-pages
+          # Copy the build output to the temporary directory
+          cp -r dist/* gh-pages/
+
+          # Ensure CNAME file is included in the deploy
+          cp CNAME gh-pages/
+
+          # Configure Git user credentials
+          git config --global user.name "Github Actions"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Change to the gh-pages directory
+          cd gh-pages
+
+          # Initialise git, create a new branch and set the remote
+          git init
+          git checkout -b gh-pages
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+          # Add all files, commit and push to the gh-pages branch
+          git add .
+          git commit -m "Deploy to Github Pages"
+          git push --force origin gh-pages

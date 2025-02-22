@@ -1,8 +1,23 @@
 # toporren
+
 Journal de Carnaval de Porrentruy
 
 ## Local development
 
-Use the following command to start a simple HTTP server:
+```
+# Install dependencies
+npm install
 
-`python3 -m http.server`
+# Run local server
+npm run dev
+```
+
+## Build application
+
+```
+# Build the application
+npm run build
+
+# Test the built application
+npm run preview
+```
