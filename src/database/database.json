@@ -1,6 +1,12 @@
 {
     "archives": [
         {
+            "imagePath": "/images/archives/compressed-2025.png",
+            "filePath": "/files/archives/toPorren2025.pdf",
+            "title": "2025",
+            "size": "8.6 Mo"
+        },
+        {
             "imagePath": "/images/archives/compressed-2024.png",
             "filePath": "/files/archives/toPorren2024.pdf",
             "title": "2024",
@@ -111,6 +117,12 @@
     ],
     "news": [
         {
+            "title": "Le To'Porren 2026 est bientôt là !",
+            "description": "En vente dès le 13 février !",
+            "date": "11.02.2026",
+            "imagePath": "/images/news/compressed-toporren2025.png"
+        },
+        {
             "title": "L'édition du To'Porren 2025 arrive !",
             "description": "En vente dès le 28 février !",
             "date": "20.01.2025",
@@ -193,17 +205,20 @@
         {
             "name": "Porrentruy",
             "places": [
+                "Boucherie Vallat",
                 "COOP Pronto - place de la Gare",
                 "COOP Pronto - route de Courgenay",
                 "COOP Super Centre - fbg St-Germain",
-                "Kiosque Danièle Grillon - rue des Vauches",
-                "Kiosque de la Gare - Luc Sauget - rue G. Amweg",
+                "Kiosque - rue des Vauches",
+                "Kiosque de la Gare - rue G. Amweg",
                 "Kiosque La Tabatière - Grand-rue",
                 "Kiosque Naville Esplanade Centre - fgb St-Germain",
                 "Kiosque Naville Pré-de-l'Etang",
                 "Shop'Ajoie - route de Courgenay",
+                "Shop du Creugenat",
                 "Station Shell - Migrolino - rue X. Stockmar",
-                "Tea-room des Tilleuls - rue des Tilleuls"
+                "Tea-room des Tilleuls - rue des Tilleuls",
+                "Tea-room Yerly"
             ]
         },
         {
@@ -234,7 +249,7 @@
         {
             "name": "Bure",
             "places": [
-                "Chez Caty Sàrl"
+                "Boucherie Vallat"
             ]
         },
         {
@@ -245,15 +260,9 @@
             ]
         },
         {
-            "name": "Coeuve",
-            "places": [
-                "Restaurant Le Cerf"
-            ]
-        },
-        {
             "name": "Cornol",
             "places": [
-                "Mini-Marché"
+                "Boulangerie Quiquerez"
             ]
         },
         {
@@ -266,7 +275,7 @@
         {
             "name": "Courtedoux",
             "places": [
-                "Mini-Marché"
+                "Kza"
             ]
         },
         {
@@ -279,7 +288,8 @@
             "name": "Delémont",
             "places": [
                 "Kiosque Naville Gare",
-                "Kiosque de l'hôpital"
+                "Kiosque de l'hôpital",
+                "Kiosque de l’Église"
             ]
         },
         {
@@ -291,7 +301,8 @@
         {
             "name": "Fontenais",
             "places": [
-                "Boucherie Mueller"
+                "Boucherie Mueller",
+                "Boulangerie Hans"
             ]
         },
         {
@@ -304,6 +315,13 @@
             "name": "Miécourt",
             "places": [
                 "Shop l'Helvétia"
+            ]
+        },
+        {
+            "name": "Moutier",
+            "places": [
+                "Kiosque Relay de la gare",
+                "Kiosque Arc-en-Ciel"
             ]
         },
         {

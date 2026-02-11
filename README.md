@@ -12,6 +12,10 @@ npm install
 npm run dev
 ```
 
+## Compress images
+
+Use the command `npm run compress-images` to compress the images from the public directories.
+
 ## Build application
 
 ```
